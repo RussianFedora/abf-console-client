@@ -1,13 +1,12 @@
 Summary:        Console client for ABF (https://abf.rosalinux.ru)
 Name:           abf-console-client
-Version:        1.9
+Version:        1.11.1
 Release:        1%{?dist}
 
 Group:          Development/Tools
 License:        GPLv2
 URL:            http://wiki.rosalab.ru/en/index.php/ABF_Console_Client
-# http://file-store.rosalinux.ru/download/c9d54a0a38d44fd867aa7c2d5caf1c3c0176c99b
-Source0:        %{name}-%{version}.tar.gz
+Source0:        %{name}-%{version}.tar.xz
 
 Requires:       python-abf >= %{version}-%{release}
 Requires:       python-beaker
@@ -72,5 +71,8 @@ rmdir %{buildroot}%{_datadir}/bash-completion/
 
 
 %changelog
+* Tue Jun  4 2013 Arkady L. Shane <ashejn@russianfedora.ru> - 1.11.1-1.R
+- update to 1.11.1
+
 * Wed Feb 13 2013 Arkady L. Shane <ashejn@russianfedora.ru> - 1.9-1.R
 - initial build
