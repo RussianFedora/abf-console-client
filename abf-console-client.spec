@@ -6,7 +6,7 @@ Release:        1%{?dist}
 Group:          Development/Tools
 License:        GPLv2
 URL:            http://wiki.rosalab.ru/en/index.php/ABF_Console_Client
-Source0:        %{name}-%{version}.tar.xz
+Source0:        %{name}-%{version}.tar.gz
 
 Requires:       python-abf >= %{version}-%{release}
 Requires:       python-beaker
