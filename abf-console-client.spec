@@ -1,6 +1,6 @@
 Summary:        Console client for ABF (https://abf.rosalinux.ru)
 Name:           abf-console-client
-Version:        1.11.1
+Version:        1.14.1
 Release:        1%{?dist}
 
 Group:          Development/Tools
@@ -71,6 +71,9 @@ rmdir %{buildroot}%{_datadir}/bash-completion/
 
 
 %changelog
+* Wed Mar 12 2014 Arkady L. Shane <ashejn@russianfedora.ru> - 1.14.1-1.R
+- update to 1.14.1
+
 * Tue Jun  4 2013 Arkady L. Shane <ashejn@russianfedora.ru> - 1.11.1-1.R
 - update to 1.11.1
 
